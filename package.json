@@ -1,0 +1,31 @@
+{
+  "name": "jwt-generate-middleware",
+  "version": "1.0.0",
+  "description": "Generator JWT Google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-nodemon": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Ygor Neves",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "pkg": {
+    "assets": [
+      "*.key"
+    ],
+    "targets": [
+      "node8"
+    ]
+  }
+}
